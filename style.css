@@ -1,0 +1,21 @@
+canvas{
+    animation-name: f;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes f{
+    from{box-shadow: 1px 1px 38px rgb(0, 255, 251);}
+    to{box-shadow: 1px 1px 38px rgb(0, 64, 255);}
+    to{box-shadow: 1px 1px 38px rgb(0, 255, 251);}
+} 
+#heading{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+#btn1:hover{
+    background-color: crimson;
+    font-size: larger;
+    color: black;
+    font-weight: 600;
+}
